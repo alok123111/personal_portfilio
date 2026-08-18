@@ -3,9 +3,15 @@
   "version": "1.2.2",
   "description": "",
   "main": "js/scripts.js",
+
+  "engines": {
+    "node": "24.x"
+  },
+
   "scripts": {
     "watch": "gulp watch"
   },
+
   "keywords": [
     "portfolio",
     "personal",
@@ -14,8 +20,10 @@
     "coding",
     "dev"
   ],
+
   "author": "Ryan Fitzgerald",
   "license": "MIT",
+
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
